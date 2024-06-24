@@ -33,7 +33,7 @@
 - Create features like debt-to-income ratio, credit utilization rate, loan-to-value ratio.
 - Generate interaction features if they add value to the model.
 
-### 4. Exploratory Data Analysis (EDA)
+### Exploratory Data Analysis (EDA)
 **Visualization:**
 - Use histograms, box plots, and scatter plots to understand feature distributions.
 - Create correlation matrices and heatmaps to identify relationships between features and the target variable.
@@ -42,7 +42,7 @@
 - Identify key predictors of default.
 - Detect multicollinearity among features.
 
-### 5. Model Development
+### Model Development
 **Model Selection:**
 - Experiment with baseline models like Logistic Regression and Decision Trees.
 - Explore advanced models like Random Forests, Gradient Boosting Machines, XGBoost, and Neural Networks.
@@ -56,7 +56,7 @@
 **Cross-Validation:**
 - Apply k-fold cross-validation (e.g., k=5) to assess model robustness.
 
-### 6. Model Evaluation
+### Model Evaluation
 **Metrics:**
 - Evaluate models using AUC-ROC, Precision-Recall curves, F1 Score, and Confusion Matrix.
 
@@ -64,18 +64,14 @@
 - Utilize SHAP or LIME for model interpretation.
 - Ensure fairness by checking for biases across different demographic groups.
 
-### 7. Model Deployment
+### Model Deployment
 **API Development:**
 - Develop a RESTful API using Flask or FastAPI to serve the model.
 
 **Integration:**
 - Integrate the API with front-end applications or existing financial systems for real-time scoring.
 
-**Monitoring:**
-- Implement monitoring tools to track model performance over time.
-- Set up alerts for performance degradation or data drift.
-
-### 8. Documentation and Reporting
+### Documentation and Reporting
 **Documentation:**
 - Document all steps including data sources, preprocessing methods, model development, and evaluation metrics.
 
@@ -83,7 +79,7 @@
 - Create visual reports using tools like Jupyter Notebook or dashboards using Tableau/PowerBI.
 - Present findings and model performance to stakeholders through detailed reports and presentations.
 
-### 9. Future Enhancements
+### Future Enhancements
 **Continuous Learning:**
 - Develop a pipeline for periodic model retraining with new data.
 
@@ -127,5 +123,3 @@
 - A deployable credit risk scoring model.
 - Comprehensive analysis demonstrating the ability to tackle real-world fintech problems.
 - Detailed documentation and insightful reports for stakeholders or potential employers.
-
-By following this detailed plan, you'll be well-prepared to develop a robust and reliable Credit Risk Scoring System.
